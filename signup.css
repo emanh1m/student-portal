@@ -1,0 +1,148 @@
+
+* Reset */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: Arial, sans-serif;
+}
+
+/* Body */
+body {
+background-color: #f0ece0;
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+padding: 20px;
+}
+
+/* Container */
+.signup-box {
+background-color: #ffffff;
+padding: 50px 45px;
+border-radius: 12px;
+box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+width: 100%;
+max-width: 450px;
+animation: fadeIn 0.5s ease;
+}
+
+/* Title */
+.signup-box h2 {
+text-align: center;
+font-size: 26px;
+font-weight: bold;
+margin-bottom: 30px;
+color: #2c2c2c;
+}
+
+/* Form Group */
+.form-group {
+display: flex;
+flex-direction: column;
+margin-bottom: 18px;
+}
+
+/* Labels */
+.form-group label {
+font-size: 14px;
+font-weight: 600;
+color: #333;
+margin-bottom: 6px;
+}
+
+/* Inputs */
+.form-group input,
+.form-group select {
+padding: 12px 14px;
+border: 1px solid #ddd;
+border-radius: 10px;
+font-size: 14px;
+background-color: #f9f9f9;
+outline: none;
+width: 100%;
+transition: all 0.2s ease;
+}
+
+/* Focus effect */
+.form-group input:focus,
+.form-group select:focus {
+border-color: #c9a84c;
+background-color: #ffffff;
+box-shadow: 0 0 0 3px rgba(201,168,76,0.15);
+}
+
+/* Button */
+button[name="signup"] {
+width: 100%;
+padding: 14px;
+background-color: #c9a84c;
+color: white;
+border: none;
+border-radius: 10px;
+font-size: 16px;
+font-weight: bold;
+letter-spacing: 0.5px;
+cursor: pointer;
+margin-top: 10px;
+transition: all 0.2s ease;
+}
+
+/* Button hover */
+button[name="signup"]:hover {
+background-color: #b8943d;
+transform: translateY(-1px);
+box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+}
+
+/* Login text */
+.login-text {
+text-align: center;
+margin-top: 20px;
+font-size: 14px;
+color: #555;
+}
+
+.login-text a {
+color: #c9a84c;
+text-decoration: none;
+font-weight: bold;
+}
+
+.login-text a:hover {
+text-decoration: underline;
+}
+
+/* Messages */
+.error {
+background-color: #ffe0e0;
+color: red;
+padding: 10px;
+border-radius: 8px;
+margin-bottom: 15px;
+font-size: 14px;
+text-align: center;
+}
+
+.success {
+background-color: #e0ffe0;
+color: green;
+padding: 10px;
+border-radius: 8px;
+margin-bottom: 15px;
+font-size: 14px;
+text-align: center;
+}
+
+/* Animation */
+@keyframes fadeIn {
+from {
+opacity: 0;
+transform: translateY(10px);
+}
+to {
+opacity: 1;
+transform: translateY(0);
+}
+}

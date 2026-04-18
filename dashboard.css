@@ -1,0 +1,127 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: Arial, sans-serif;
+}
+
+body {
+background-color: #f0ece0;
+min-height: 100vh;
+}
+
+nav {
+background-color: #c9a84c;
+padding: 15px 30px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+nav h1 {
+color: white;
+font-size: 20px;
+}
+
+nav .nav-links a {
+color: white;
+text-decoration: none;
+margin-left: 20px;
+font-size: 14px;
+}
+
+nav .nav-links a:hover {
+text-decoration: underline;
+}
+
+.container {
+max-width: 900px;
+margin: 30px auto;
+padding: 0 20px;
+}
+
+.welcome-card {
+background-color: white;
+padding: 25px;
+border-radius: 12px;
+box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+margin-bottom: 25px;
+}
+
+.welcome-card h2 {
+color: #c9a84c;
+margin-bottom: 10px;
+}
+
+.welcome-card p {
+color: #555;
+margin-top: 5px;
+font-size: 14px;
+}
+
+.quick-links {
+display: flex;
+gap: 15px;
+margin-bottom: 25px;
+}
+
+.quick-links .card {
+flex: 1;
+background-color: white;
+padding: 20px;
+border-radius: 12px;
+box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+text-decoration: none;
+color: #2c2c2c;
+transition: transform 0.2s;
+}
+
+.quick-links .card:hover {
+transform: translateY(-3px);
+}
+
+.quick-links .card h3 {
+color: #c9a84c;
+margin-bottom: 8px;
+}
+
+.quick-links .card p {
+font-size: 13px;
+color: #777;
+}
+
+.announcements {
+background-color: white;
+padding: 25px;
+border-radius: 12px;
+box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.announcements h3 {
+color: #c9a84c;
+margin-bottom: 15px;
+}
+
+.announcement-item {
+border-bottom: 1px solid #eee;
+padding: 12px 0;
+}
+
+.announcement-item:last-child {
+border-bottom: none;
+}
+
+.announcement-item h4 {
+color: #2c2c2c;
+margin-bottom: 5px;
+}
+
+.announcement-item p {
+font-size: 13px;
+color: #555;
+}
+
+.announcement-item small {
+color: #aaa;
+font-size: 11px;
+}
