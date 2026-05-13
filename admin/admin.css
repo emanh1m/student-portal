@@ -1,0 +1,151 @@
+body {
+    background-color: #f0ece0;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+.nav-links {
+    width: 100%;
+    background-color: #c9a84c;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.admin-title {
+color: #c9a84c;
+margin-bottom: 25px;
+margin-top: 30px;
+}
+.signup-box {
+    max-width: 600px;
+    margin: 30px auto;
+    background-color: white;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+.stats {
+display: flex;
+gap: 15px;
+margin-bottom: 25px;
+}
+
+.stat-card {
+flex: 1;
+background-color: white;
+padding: 25px;
+border-radius: 12px;
+box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+text-align: center;
+}
+
+.stat-card h3 {
+font-size: 36px;
+color: #c9a84c;
+margin-bottom: 8px;
+}
+
+.stat-card p {
+color: #777;
+font-size: 14px;
+}
+
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: Arial, sans-serif;
+}
+
+
+
+/* Container */
+.signup-box {
+background-color: #ffffff;
+padding: 50px 45px;
+border-radius: 12px;
+box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+width: 100%;
+max-width: 450px;
+animation: fadeIn 0.5s ease;
+}
+
+/* Title */
+.signup-box h2 {
+text-align: center;
+font-size: 26px;
+font-weight: bold;
+margin-bottom: 30px;
+color: #2c2c2c;
+}
+
+/* Form Group */
+.form-group {
+display: flex;
+flex-direction: column;
+margin-bottom: 18px;
+}
+
+/* Labels */
+.form-group label {
+font-size: 14px;
+font-weight: 600;
+color: #333;
+margin-bottom: 6px;
+}
+
+/* Inputs */
+.form-group input,
+.form-group select {
+padding: 12px 14px;
+border: 1px solid #ddd;
+border-radius: 10px;
+font-size: 14px;
+background-color: #f9f9f9;
+outline: none;
+width: 100%;
+transition: all 0.2s ease;
+}
+
+button[name="signup"] {
+width: 100%;
+padding: 14px;
+background-color: #c9a84c;
+color: white;
+border: none;
+border-radius: 10px;
+font-size: 16px;
+font-weight: bold;
+letter-spacing: 0.5px;
+cursor: pointer;
+margin-top: 10px;
+transition: all 0.2s ease;
+}
+
+/* Button hover */
+button[name="signup"]:hover {
+background-color: #b8943d;
+transform: translateY(-1px);
+box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+}
+
+/* Animation */
+@keyframes fadeIn {
+from {
+opacity: 0;
+transform: translateY(10px);
+}
+to {
+opacity: 1;
+transform: translateY(0);
+}
+}
+
+.delete {
+    width: 10%;
+    color: white;
+    background-color: #b8943d;
+    border-radius: 10px;
+    border-color: white;
+}
